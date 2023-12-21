@@ -1,0 +1,8 @@
+#theme_cont{
+    padding: 5px;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,8 @@
+#hamburger_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    padding: 8px;
+}

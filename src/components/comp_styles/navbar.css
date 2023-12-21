@@ -1,0 +1,47 @@
+#navbar_cont{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-bottom: 2px rgba(0, 0, 0, 0.2) solid;
+}
+#design_cont, #profile_cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#navmenulogo_cont{
+    display: flex;
+    align-items: center;
+    width: 220px;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+#logo > figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    margin-right: 5px;
+}
+#logo > figure > img{
+    width: 100%;
+    height: 100%;
+}
+#logo > header{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+#more_cont, #profile_icon_cont{
+    padding: 5px;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,25 @@
+#sidemenu_cont{
+    font-family: 'Open Sans';
+    padding: 10px;
+    padding-left: 0;
+    width: 300px;    
+}
+.menulist_item{
+    list-style-type: none;
+    display: flex;
+    padding: 5px 5px 5px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.menulist_icon{
+    margin-right: 20px;
+    padding: 5px;
+}
+#focus_item{
+    background-color: rgb(254, 239, 195);
+}

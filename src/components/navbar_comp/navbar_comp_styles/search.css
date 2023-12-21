@@ -1,0 +1,29 @@
+#search_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+    background-color: #f1f3f4;
+    border-radius: 5px;
+}
+#search_cont > input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px 5px 5px 45px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-family: 'roboto';
+}
+#search_cont > input::placeholder{
+    font-size: 18px;
+    font-family: 'roboto';
+}
+#search_icon{
+    position: absolute;
+    left: 10px;
+    top: 12px;
+
+}
